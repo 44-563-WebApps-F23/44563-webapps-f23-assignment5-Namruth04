@@ -27,6 +27,209 @@
         </div>
     </div>
     <p>City names will break first in cities we use col-md which has medium so first it breaks before letters because it uses col-sm</p>
+    <div class="container">
+        <img src="Pondicherry.jpg" alt="image of Pondicherry" length="250px" width="250px">
+        <img src="ooty.webp" alt="image of Ooty" length="250px" width="250px">
+        <img src="tirupathi.webp" alt="image of tirupathi" length="200px" width="200px">
+
+    </div>
+    <div class="container">
+        <img src="Pondicherry.jpg" alt="image of Pondicherry" class="img-thumbnail" length="250px" width="250px">
+        <img src="ooty.webp" alt="image of Ooty" class="img-thumbnail" length="250px" width="250px">
+        <img src="tirupathi.webp" alt="image of tirupathi" class="img-thumbnail" length="200px" width="200px">
+
+    </div>
+
+    <br> 
+    <table class="table table-bordered table-striped table-hover table-sm">
+        <caption>Cities, Rivers and Trees</caption>
+        <thread class="table-dark">
+            <tr>
+                <th scope="col">Letter</th>
+                <th scope="col">City</th>
+                <th scope="col">River</th>
+                <th scope="col">Tree</th>
+            </tr>
+        </thread>
+        <tbody>
+            <tr class="table-info0" scope="row">
+                <td>P</td>
+                <td>Patna</td>
+                <td>Po River</td>
+                <td>Pin Oak</td>
+            </tr>
+            <tr class="table-secondary" scope="row">
+                <td>O</td>
+                <td>Oslo</td>
+                <td>Obey River</td>
+                <td>Olea</td>
+            </tr>
+            <tr class="table-info" scope="row">
+                <td>T</td>
+                <td>Tajpur</td>
+                <td>Ta River</td>
+                <td>Trillium</td>
+            </tr>
+            <tr class="table-secondary" scope="row">
+                <td>L</td>
+                <td>Lahore</td>
+                <td>La Crosse River</td>
+                <td>Linden</td>
+            </tr>
+            <tr class="table-info" scope="row">
+                <td>A</td>
+                <td>Almora</td>
+                <td>Abita River</td>
+                <td>Achillea</td>
+            </tr>
+            <tr class="table-secondary" scope="row">
+                <td>N</td>
+                <td>Nellore</td>
+                <td>Nabesna River</td>
+                <td>Namboca</td>
+            </tr>
+        </tbody>
+    </table>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-sm">
+      <a class="navbar-brand" href="#">Button Groups</a>
+  </nav>
+  <div class="btn" style="color:aliceblue;background-color: red;">
+    <button type="button" class="btn">P</button>
+    <button type="button" class="btn">O</button>
+    <button type="button" class="btn">T</button>
+    <button type="button" class="btn">L</button>
+    <button type="button" class="btn">A</button>
+    <button type="button" class="btn">N</button>
+  </div>
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group me-2" role="group" aria-label="Image buttons">
+          <button type="button" class="btn btn-success">P</button>
+          <button type="button" class="btn btn-success">O</button>
+          <button type="button" class="btn btn-success">T</button>
+      </div>
+      <div class="btn-group me-2" role="group" aria-label="Alert buttons">
+          <button type="button" class="btn btn-warning">L</button>
+          <button type="button" class="btn btn-warning">A</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Danger buttons">
+          <button type="button" class="btn btn-danger">N</button>
+      </div>
+  </div>
+  
+  <br>
+  <br>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-sm">
+      <a class="navbar-brand" href="#">Dropdown</a>
+  </nav>
+  
+  <br>
+
+  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+      <div class="btn-group" role="group">
+          <button type="button" class="btn btn-primary active dropdown-toggle" data-bs-toggle="dropdown"
+              aria-expanded="false">
+          </button>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">P</a></li>
+              <li><a class="dropdown-item" href="#">O</a></li>
+              <li><a class="dropdown-item" href="#">T</a></li>
+              <li><a class="dropdown-item" href="#">T</a></li>
+              <li><a class="dropdown-item" href="#">A</a></li>
+              <li><a class="dropdown-item" href="#">N</a></li>
+          </ul>
+      </div>
+      <button type="button" class="btn btn-primary">O</button>
+      <button type="button" class="btn btn-primary">T</button>
+      <button type="button" class="btn btn-primary">L</button>
+      <button type="button" class="btn btn-primary">A</button>
+      <button type="button" class="btn btn-primary">N</button>
+  </div>
+  
+  <br>
+  <br>
+  
+  <div class="btn-group" role="group">
+      <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          Reference to Pages
+      </button>
+      <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
+          <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
+      </ul>
+  </div>
+  
+  <br>
+  <br>
+  
+  <form>
+      <div class="form-group mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="form-group mb-3">
+          <label for="exampleInputPassword1" class="form-label">City</label>
+          <input type="text" class="form-control" id="userCity" placeholder="Enter your city">
+      </div>
+      <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  
+  <br>
+  <br>
+  
+  <div class="container">
+      <div class="row">
+  
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="Pondicherry.jpg" class="card-img-top" alt="Image of Pondicherry">
+                  <div class="card-body">
+                      <h5 class="card-title">Pondicherry</h5>
+                      <p class="card-text">Often called the 'French Capital of India,' it is known for its quaint colonial buildings, beautiful promenades, unspoilt beaches, and many temples. There are lots of things to see when you visit Pondicherry.</p>
+                    </p>
+                      <a href="Pondicherry.html" class="btn btn-primary" target="_blank">View More</a>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="ooty.webp" class="card-img-top" alt="Image of ooty">
+                  <div class="card-body">
+                      <h5 class="card-title">ooty</h5>
+                      <p class="card-text">Ooty, popularly known as the 'Queen of Hill Stations' is nestled in the Nilgiri hills in Tamil Nadu. The lush green tea plantations, the vast meadows, the towering mountains, dense pine and eucalyptus trees, sparkling waterfalls and serene lakes make Ooty a prominent part of any bucket list.</p>
+                      
+                      <a href="ooty.html" class="btn btn-primary" target="_blank">View More</a>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="tirupathi.webp" class="card-img-top" alt="Image of tirupati">
+                  <div class="card-body">
+                      <h5 class="card-title">tirupathi</h5>
+                      <p class="card-text"><p>Tirupati is known as the abode of the Hindu god Venkateshvara, Lord of Seven Hills. The sacred hill of Tirumala is situated about 6 miles (10 km) northwest of Tirupati in Sri Venkateshwara Sanctuary and National Park. The hill was considered so holy that before 1870 non-Hindus were not permitted to ascend it. </p>
+                      </p>
+                      <a href="https://en.wikipedia.org/wiki/Tirupati" class="btn btn-primary" target="_blank">View More</a>
+  
+  
+                        <head>
+                            
+              </div>
+          </div>
+      </div>
+  </div>
+  <br>
+  <br>
+        </tbody>
+    </table>
+
 
 </body>
 </html>
